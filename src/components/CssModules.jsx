@@ -1,10 +1,11 @@
 import classes from "./CssModules.module.scss";
 
 export const CssModules = () => {
+  const { container, title, button } = classes;
   return (
-    <div className={classes.container}>
-      <p> -CssModules- </p>
-      <button>Fight!!</button>
+    <div className={container}>
+      <p className={title}> -CssModules- </p>
+      <button className={button}>Fight!!</button>
     </div>
   );
 };

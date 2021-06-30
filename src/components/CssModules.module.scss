@@ -7,3 +7,20 @@
   margin: 8px;
   border-radius: 20px;
 }
+
+.title {
+  color: #3d84a8;
+  margin: 0;
+}
+
+.button {
+  background-color: #abedd8;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  &:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+}
