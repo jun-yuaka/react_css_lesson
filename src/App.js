@@ -1,4 +1,4 @@
-import { InlineStyle } from "./components/inlineStyle";
+import { InlineStyle } from "./components/InlineStyle";
 import "./styles.css";
 
 export default function App() {
